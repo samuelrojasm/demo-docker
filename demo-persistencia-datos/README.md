@@ -12,7 +12,7 @@
 
 El objetivo de esta demostración es mostrar cómo ejecutar un contenedor de Docker, crear archivos dentro de él y verificar la persistencia de esos archivos en el sistema de archivos del host.
 
---
+---
 
 ## Requisitos
 
@@ -41,22 +41,22 @@ docker exec -it my_alpine_container sh -c "echo 'Contenido archivo01' > /home/ar
 ls /tmp/docker/storage
 ```
 
-# Eliminar archivo01
+#### Eliminar archivo01
 ```bash
 rm /tmp/docker/storage/archivo01
 ```
 
-# Entrar nuevamente al contenedor
+#### Entrar nuevamente al contenedor
 ```bash
 docker exec -it my_alpine_container sh
 ```
 
-# Verificar archivos dentro del contenedor
+#### Verificar archivos dentro del contenedor
 ```bash
 ls /home
 ```
 
-# Paso 4: Verificar volúmenes
+### Paso 4: Verificar volúmenes
 ```bash
 docker volume ls
 ```
