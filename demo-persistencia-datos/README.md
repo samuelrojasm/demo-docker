@@ -19,16 +19,30 @@ El objetivo de esta demostración es mostrar cómo ejecutar un contenedor de Doc
 - Docker instalado.
 - Acceso a la terminal.
 
+### Nota: uso de Podman en MacOS
+- En MacOS, **podman** usa una máquina virtual en **podman machine**.
+- Por lo tanto, la carpeta /tmp/docker/storage debe existir dentro de la VM de Podman, no solo en la Mac.
+- Podman permite configurar volúmenes al crear la VM (**podman machine**)
+```bash
+mkdir -p /tmp/docker/storage
+podman machine init --volume /tmp/docker/storage:/tmp/docker/storage
+podman machine start
+```
 ---
 
 ## Pasos
 
 ### 1. Ejecutar un contenedor en modo desapegado (detached mode)
 
-Ejecuta un contenedor a partir de la imagen `alpine:3.17`, montando el directorio `/tmp/docker/storage` de la máquina host en el directorio `/home` del contenedor.
+- Ejecuta un contenedor a partir de la imagen `alpine:3.17`, montando el directorio `/tmp/docker/storage` de la máquina host en el directorio `/home` del contenedor.
 
+- Opción 1: usando -v
 ```bash
-docker run -d -t --name nuevo_contenedor_alpine -v /tmp/docker/storage:/home alpine:3.1:w7
+docker run -d -t --name nuevo_contenedor_alpine -v /tmp/docker/storage:/home alpine:3.17
+```
+- Opción 2: usando --mount
+```bash
+docker run -d -t --name otro-contenedor-alpine --mount type=bind,src=/tmp/docker/storage,dst=/home alpine:3.17
 ```
 ---
 
