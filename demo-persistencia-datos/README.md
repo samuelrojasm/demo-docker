@@ -28,7 +28,7 @@ El objetivo de esta demostración es mostrar cómo ejecutar un contenedor de Doc
 Ejecuta un contenedor a partir de la imagen `alpine:3.17`, montando el directorio `/tmp/docker/storage` de la máquina host en el directorio `/home` del contenedor.
 
 ```bash
-docker run -d --name my_alpine_container -v /tmp/docker/storage:/home alpine:3.17 tail -f /dev/null
+docker run -d -t --name nuevo_contenedor_alpine -v /tmp/docker/storage:/home alpine:3.1:w7
 ```
 ---
 
