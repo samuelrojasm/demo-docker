@@ -48,7 +48,7 @@ docker run -d -t --name otro-contenedor-alpine --mount type=bind,src=/tmp/docker
 
 ### 2. Crear archivos dentro del contenedor
 ```bash
-docker exec -it my_alpine_container sh -c "echo 'Contenido archivo01' > /home/archivo01 && echo 'Contenido archivo02' > /home/archivo02"
+docker exec -it nuevo_contenedor_alpine sh -c "echo 'Contenido archivo01' > /home/archivo01 && echo 'Contenido archivo02' > /home/archivo02"
 ```
 ---
 
@@ -64,7 +64,7 @@ rm /tmp/docker/storage/archivo01
 
 #### Entrar nuevamente al contenedor
 ```bash
-docker exec -it my_alpine_container sh
+docker exec -it nuevo_contenedor_alpine sh
 ```
 
 #### Verificar archivos dentro del contenedor
