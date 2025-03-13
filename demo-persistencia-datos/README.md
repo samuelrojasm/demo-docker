@@ -30,13 +30,15 @@ Ejecuta un contenedor a partir de la imagen `alpine:3.17`, montando el directori
 ```bash
 docker run -d --name my_alpine_container -v /tmp/docker/storage:/home alpine:3.17 tail -f /dev/null
 ```
+---
 
-### Paso 2: Crear archivos dentro del contenedor
+### 2. Crear archivos dentro del contenedor
 ```bash
 docker exec -it my_alpine_container sh -c "echo 'Contenido archivo01' > /home/archivo01 && echo 'Contenido archivo02' > /home/archivo02"
 ```
+---
 
-### Paso 3: Verificar archivos en el host
+### 3. Verificar archivos en el host
 ```bash
 ls /tmp/docker/storage
 ```
@@ -55,8 +57,9 @@ docker exec -it my_alpine_container sh
 ```bash
 ls /home
 ```
+---
 
-### Paso 4: Verificar volúmenes
+### 4. Verificar volúmenes
 ```bash
 docker volume ls
 ```
