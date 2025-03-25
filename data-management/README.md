@@ -1,6 +1,7 @@
 # Demo: Docker Data Management
 
-Este repositorio contiene demostraciones sobre la gestión de datos en Docker. Cada directorio incluye ejemplos prácticos y pasos detallados para realizar tareas específicas relacionadas con la gestión de datos en contenedores Docker.
+- Este repositorio contiene demostraciones sobre la gestión de datos en Docker. 
+- Cada directorio incluye ejemplos prácticos y pasos detallados para realizar tareas específicas relacionadas con la gestión de datos en contenedores Docker.
 
 ---
 
