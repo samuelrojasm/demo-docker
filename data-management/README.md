@@ -6,7 +6,7 @@ Este repositorio contiene demostraciones sobre la gestión de datos en Docker. C
 
 ## Estructura del Repositorio
 
-- **demo-persistencia-datos**: Demostración sobre cómo gestionar archivos dentro de un contenedor Docker utilizando bind mounts.
+- [**demo-persistencia-datos**](https://github.com/samuelrojasm/demo-docker-data-management/tree/main/data-management/persistencia-datos): Demostración sobre cómo gestionar archivos dentro de un contenedor Docker utilizando bind mounts.
 - **demo-postgres-volume**: Demostración sobre cómo trabajar con contenedores de PostgreSQL y gestionar volúmenes.
 
 ---
