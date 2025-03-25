@@ -1,17 +1,10 @@
-# Demo: Docker Data Management
+# Demos de Uso de Docker
 
-Este repositorio contiene demostraciones sobre la gestión de datos en Docker. Cada directorio incluye ejemplos prácticos y pasos detallados para realizar tareas específicas relacionadas con la gestión de datos en contenedores Docker.
-
----
-
-## Estructura del Repositorio
-
-- **demo-persistencia-datos**: Demostración sobre cómo gestionar archivos dentro de un contenedor Docker utilizando bind mounts.
-- **demo-postgres-volume**: Demostración sobre cómo trabajar con contenedores de PostgreSQL y gestionar volúmenes.
+Demostraciones prácticas que muestran cómo utilizar Docker en diferentes escenarios.
 
 ---
 
-## Requisitos
+## Requisitos previos
 
-- Docker instalado en tu máquina.
-- Acceso a la terminal.
+- [Docker](https://www.docker.com/get-started) (Instalar la versión más reciente)
+- [Docker Compose](https://docs.docker.com/compose/install/)
