@@ -1,5 +1,4 @@
 # Demos de Uso de Docker
-
 Demostraciones prácticas que muestran cómo utilizar Docker en diferentes escenarios.
 
 ---
