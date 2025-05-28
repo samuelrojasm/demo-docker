@@ -8,14 +8,14 @@ Crear una imagen de contenedor con **Amazon Linux 2023**, puedes usar un **Docke
 
 ## Pasos para contruir la imagen
 ### 1.- Crear Imagen: Ejecutar en el mismo directorio del archivo dockerfile
-    ```bash
-    docker build -t amazonlinux2023-demo .
-    ```
+```bash
+docker build -t amazonlinux2023-demo .
+```
 
 ### 2.- Correr contenedor
-    ```bash
-    docker run -it amazonlinux2023-demo
-    ```
+```bash
+docker run -it amazonlinux2023-demo
+```
 
 ## 🚀 Resultado (Outcome)
 ### 
