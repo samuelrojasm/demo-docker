@@ -4,7 +4,7 @@
 
 ## 📂 Contenido
 ### Dockerfile
-- [Imagen de contenedor con Amazon Linux 2023](https://www.docker.com/get-started)
+- [Imagen de contenedor con Amazon Linux 2023](https://github.com/samuelrojasm/demo-docker/tree/main/dockerfile-examples/amazonlinux2023-demo)
 
 ### Docker CLI
 - [Presistencia de datos - bind mount](https://github.com/samuelrojasm/demo-docker/tree/main/data-management/persistencia-datos)
