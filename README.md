@@ -21,18 +21,15 @@
 
 ## Ejemplos de comandos de Docker
 
-- Ejecutar contenedor:
 ```bash
+# Ejecutar contenedor:
 docker run --rm -it mi-imagen-amazonlinux2023
-```
 
-- obtener la imagen minimalista más reciente con el siguiente comando:
-```bash
+# Obtener la imagen minimalista más reciente con el siguiente comando:
 docker pull public.ecr.aws/amazonlinux/amazonlinux:2023-minimal
+
+
 ```
-
-
-
 
 ---
 
