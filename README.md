@@ -19,6 +19,12 @@
 
 ---
 
+## Requisitos previos
+- [Docker](https://www.docker.com/get-started) (Instalar la versión más reciente)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+---
+
 ## Ejemplos de comandos de Docker
 
 ```zsh
@@ -123,8 +129,11 @@ docker manifest inspect public.ecr.aws/amazonlinux/amazonlinux:2023
 
 ---
 
-## Requisitos previos
-- [Docker](https://www.docker.com/get-started) (Instalar la versión más reciente)
-- [Docker Compose](https://docs.docker.com/compose/install/)
+## 📚 Referencias
+- [What is Docker?](https://docs.docker.com/get-started/docker-overview/)
+- [Docker CLI reference](https://docs.docker.com/reference/cli/docker/)
+- [Building best practices](https://docs.docker.com/build/building/best-practices/)
+- [Storage](https://docs.docker.com/engine/storage/)
+- [Docker Engine security](https://docs.docker.com/engine/security/)
 
 ---
