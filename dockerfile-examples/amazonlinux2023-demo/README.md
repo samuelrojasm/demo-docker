@@ -19,7 +19,9 @@ docker run -it amazonlinux2023-demo
 
 ## 🚀 Resultado (Outcome)
 ### Ejecución de contendor
-![Ejecución de Contenedor](assets/imagenes/contenedor_amazonlinux2023)
+ <p align="center">
+    <img src="assets/imagenes/contenedor_amazonlinux2023.png" alt="Storage Account" width="70%">
+</p>
 
 ---
 
