@@ -5,7 +5,6 @@
 - Este ejemplo utiliza un **bind mount**, lo que significa que los archivos creados dentro del contenedor se reflejan directamente en el sistema de archivos del host.
 - No se crean volúmenes de Docker en este proceso, ya que se está utilizando un **bind mount**.
 
----
 
 ## 🎯 Objetivo (Target)
 
@@ -27,6 +26,7 @@ mkdir -p /tmp/docker/storage
 podman machine init --volume /tmp/docker/storage:/tmp/docker/storage
 podman machine start
 ```
+
 ---
 
 ## 🚀 Pasos
@@ -43,13 +43,11 @@ docker run -d -t --name nuevo_contenedor_alpine -v /tmp/docker/storage:/home alp
 ```bash
 docker run -d -t --name otro-contenedor-alpine --mount type=bind,src=/tmp/docker/storage,dst=/home alpine:3.17
 ```
----
 
 ### 2. Crear archivos dentro del contenedor
 ```bash
 docker exec -it nuevo_contenedor_alpine sh -c "echo 'Contenido archivo01' > /home/archivo01 && echo 'Contenido archivo02' > /home/archivo02"
 ```
----
 
 ### 3. Verificar archivos en el host
 ```bash
@@ -70,9 +68,10 @@ docker exec -it nuevo_contenedor_alpine sh
 ```bash
 ls /home
 ```
----
 
 ### 4. Verificar volúmenes
 ```bash
 docker volume ls
 ```
+
+---
