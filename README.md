@@ -7,7 +7,7 @@
 - [Amazon Linux 2023 + Python](https://www.docker.com/get-started)
 
 ### Docker CLI
-- [Presistencia de datos - bind mount](https://www.docker.com/get-started)
+- [Presistencia de datos - bind mount](https://github.com/samuelrojasm/demo-docker/tree/main/data-management/persistencia-datos)
 
 ---
 
