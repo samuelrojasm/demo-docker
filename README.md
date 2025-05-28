@@ -21,7 +21,7 @@
 
 ## Ejemplos de comandos de Docker
 
-```bash
+```zsh
 # Ejecutar contenedor:
 docker run --rm -it mi-imagen-amazonlinux2023
 
