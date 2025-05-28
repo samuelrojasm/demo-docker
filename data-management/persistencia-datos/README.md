@@ -1,20 +1,19 @@
-# Demo: Archivos en Docker
+# 🛠️ Demo: Archivos en Docker
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 - Demostración de cómo trabajar con contenedores Docker, específicamente enfocándose en la creación y gestión de archivos dentro de un contenedor utilizando un bind mount.
-
 - Este ejemplo utiliza un **bind mount**, lo que significa que los archivos creados dentro del contenedor se reflejan directamente en el sistema de archivos del host.
-
 - No se crean volúmenes de Docker en este proceso, ya que se está utilizando un **bind mount**.
 
 ---
 
-## Objetivo
+## 🎯 Objetivo (Target)
 
 El objetivo de esta demostración es mostrar cómo ejecutar un contenedor de Docker, crear archivos dentro de él y verificar la persistencia de esos archivos en el sistema de archivos del host.
 
 ---
 
-## Requisitos
+## ✅ Requisitos
 
 - Docker instalado.
 - Acceso a la terminal.
@@ -30,7 +29,7 @@ podman machine start
 ```
 ---
 
-## Pasos
+## 🚀 Pasos
 
 ### 1. Ejecutar un contenedor en modo desapegado (detached mode)
 
