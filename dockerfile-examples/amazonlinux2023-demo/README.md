@@ -19,12 +19,7 @@ docker run -it amazonlinux2023-demo
 
 ## 🚀 Resultado (Outcome)
 ### Ejecución de contendor
-
-
-### Terraform apply
-![Private Subnet](assets/imagenes/terraform_apply.png)
-### Resource map (Private Subnets)
-![Private Subnet](assets/imagenes/private_subnets.png)
+![Ejecución de Contenedor](assets/imagenes/contenedor_amazonlinux2023)
 
 ---
 
