@@ -61,8 +61,8 @@ docker run -it --name mi-contenedor-al2023 mi-imagen-amazonlinux2023 bash
 ```zsh
 # Reanudar sesión en el contenedor
 docker start \ 
-   -ai  \ -a: adjunta la terminal a la salida -i: habilita la entrada interactiva
-   mi-contenedor-al2023
+   -ai  \                # -a: adjunta la terminal a la salida -i: habilita la entrada interactiva
+   mi-contenedor-al2023  # Imagen que se quiere iniciar
 ```
 
 ```zsh
@@ -90,8 +90,13 @@ docker run --rm -it mi-imagen-amazonlinux2023 bash
 ```
 
 ```zsh
-# Ver y comparar los paquetes instalados
+# Listar los paquetes instalados
 docker run --rm -it public.ecr.aws/amazonlinux/amazonlinux:2023-minimal rpm -qa
+```
+
+```zsh
+# Cantidad de paquetes instalados
+docker run --rm -it public.ecr.aws/amazonlinux/amazonlinux:2023-minimal rpm -qa | wc -l
 ```
 
 ```zsh
