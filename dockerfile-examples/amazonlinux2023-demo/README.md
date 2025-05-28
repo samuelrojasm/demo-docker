@@ -2,7 +2,7 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 ## 🎯 Objetivo (Target)
-Crear una imagen de contenedor con **Amazon Linux 2023**, puedes usar un **Dockerfile** simple basado en la imagen oficial de Amazon Linux 2023 que ya está disponible en **Amazon ECR Public Gallery**
+Crear una imagen de contenedor con **Amazon Linux 2023**, usa un **Dockerfile** simple basado en la imagen oficial de Amazon Linux 2023 que ya está disponible en **Amazon ECR Public Gallery**
 
 ---
 
